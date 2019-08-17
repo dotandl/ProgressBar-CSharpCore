@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "dotnet clean",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Compile",
+            "type": "shell",
+            "command": "dotnet build",
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
