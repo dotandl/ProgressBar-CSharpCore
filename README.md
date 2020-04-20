@@ -1,15 +1,11 @@
 # Progress Bar for C#
 Simple CLI progress bar library for C# (.NET Core)
 
-## Documentation & Compilation
-See [documentation](docs/documentation.md).
+## Build
+To build make sure you have installed `dotnet CLI` and type:
+```sh
+$ dotnet -p ProgressBarCSharpCore.csproj build
+```
 
-## Change Log
-- 1.0
-    - First release
-
-## License
-This project is licensed under the MIT License
-
-## Authors
-- [andl](https://github.com/dotandl)
+## Docs & usage
+See [Docs](docs/docs.md) & [Usage](docs/usage.md)

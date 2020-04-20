@@ -1,15 +1,4 @@
-# Documentation for Progress Bar for C#
-
-## Compilation
-To compile You have to type:
-```shell
-$ dotnet -p ProgressBarCSharpCore.csproj build
-```
-
-## Files documentation
-See [files.md](files.md).
-
-## Usage
+# Usage
 First import `ProgressBar` namespace by `using` statement:
 ```csharp
 using ProgressBar;
@@ -22,7 +11,7 @@ There are 2 methods in `ProgressBarManager` which manages the progress bar:
 - `SetProgressBar`
 - `ClearProgressBar`
 
-To set progress bar, use `SetProgressBar` method. If you want to change text/value of progress bar, call this method too. To delete call `ClearProgressBar`.  
+To set progress bar, use `SetProgressBar` method. If you want to change text/value of progress bar, call this method too. To delete call `ClearProgressBar`.
 Progress bar does not need `ProgressBarManager` class instance (static methods).
 
 Code I used (on picture):
@@ -38,7 +27,7 @@ There are 3 methods in `ProgressBarManager` which manages the progress indicator
 - `UpdateProgressIndicator`
 - `ClearProgressIndicator`
 
-To set progress indicator, use `SetProgressIndicator` method. If you want to change text on progress indicator, call `UpdateProgressIndicator` method. To delete call `ClearProgressIndicator`.  
+To set progress indicator, use `SetProgressIndicator` method. If you want to change text on progress indicator, call `UpdateProgressIndicator` method. To delete call `ClearProgressIndicator`.
 Progress indicator **works asynchronously**.
 
 Code I used (on picture):
